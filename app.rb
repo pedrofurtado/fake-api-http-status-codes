@@ -1,6 +1,3 @@
-# docker container run --rm -it -v $(pwd):/app -w /app -p 3009:4567 ruby /bin/bash
-# ruby app.rb
-require 'rack'
 require 'sinatra'
 require 'sinatra/reloader'
 require 'sinatra/json'
