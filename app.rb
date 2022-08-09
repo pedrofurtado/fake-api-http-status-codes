@@ -6,6 +6,7 @@ require 'sinatra/reloader'
 require 'sinatra/json'
 require 'sinatra/multi_route'
 
+set :port, ENV.fetch('PORT', 4567)
 set :bind, '0.0.0.0'
 
 route :get, '/' do
